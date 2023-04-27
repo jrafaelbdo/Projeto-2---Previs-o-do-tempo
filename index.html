@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Previsão do tempo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Digite o nome da cidade">
+      <button id="search-button">Pesquisar</button>
+    </div>
+    <div class="weather-container">
+      <div class="location"></div>
+      <div class="weather"></div>
+      <div class="temperature"></div>
+      <div class="sun-container">
+      <div class="item sunrise">
+      <div class="value"></div>
+      <div class="label">Nascer do sol</div>
+        </div>
+        <div class="item sunset">
+          <div class="value"></div>
+          <div class="label">Pôr do sol</div>
+        </div>
+        <div class="item wind">
+            <div class="value"></div>
+            <div class="label">Velocidade do vento</div>
+          </div>
+          <div class="item humidity">
+            <div class="value"></div>
+            <div class="label">Umidade</div>
+          </div>          
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
