@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Previsão do tempo</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-header">
+          <h2>Previsão do tempo</h2>
+          <div class="search">
+            <input type="text" id="search-input" placeholder="Digite o nome da cidade" />
+            <button id="search-button">Pesquisar</button>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="location">
+            <div class="city"></div>
+            <div class="country"></div>
+          </div>
+          <div class="weather">
+            <div class="icon"></div>
+            <div class="description"></div>
+          </div>
+          <div class="temperature"></div>
+          <div class="details">
+            <div class="sunrise">
+              <div class="label">Nascer do sol:</div>
+              <div class="value"></div>
+            </div>
+            <div class="sunset">
+              <div class="label">Pôr do sol:</div>
+              <div class="value"></div>
+            </div>
+            <div class="wind">
+              <div class="label">Vento:</div>
+              <div class="value"></div>
+            </div>
+            <div class="humidity">
+              <div class="label">Umidade:</div>
+              <div class="value"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script2.js"></script>
+  </body>
+</html>
